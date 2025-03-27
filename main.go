@@ -4,8 +4,7 @@ import "fmt"
 
 func main(){
 
-	var numero int
-	fmt.Print("Digite um número: ")
-	fmt.Scan(&numero)
-	fmt.Println("Número: ", numero)
+	var x int = 10
+	x += 5
+	fmt.Print("O valor de x é: ", x)
 }
