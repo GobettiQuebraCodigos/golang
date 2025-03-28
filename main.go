@@ -4,7 +4,9 @@ import "fmt"
 
 func main(){
 
-	var x int = 10
-	x += 5
-	fmt.Print("O valor de x é: ", x)
+	a, b := 10, 3
+	fmt.Print("A soma é ", a + b)
+	fmt.Print("A subtração é ", a - b)
+	fmt.Print("A multiplicação é ", a * b)
+	fmt.Print("O resto da divisão é ", a % b)
 }
