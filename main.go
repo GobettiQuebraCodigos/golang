@@ -4,13 +4,15 @@ import "fmt"
 
 func main(){
 
-	a, b := 10, 3
+	var num1 int
+    var num2 int
 
-
-	a += 1
-	fmt.Println("Incrementar a", a)
-
-	if a > 0 && b > 0 {
-		fmt.Println("Positivos")
-	}
+	fmt.Println("Digite um número: ")
+	fmt.Scan(&num1)
+	fmt.Println("Digite outro número: ")
+	fmt.Scan(&num2)
+	fmt.Println("A soma é ", num1 + num2)
+	fmt.Println("A subtração é ", num1 - num2)
+	fmt.Println("A multiplicação é ", num1 * num2)
+	fmt.Println("O resto da divisão é ", num1 % num2)
 }
