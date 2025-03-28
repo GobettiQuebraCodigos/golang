@@ -5,8 +5,12 @@ import "fmt"
 func main(){
 
 	a, b := 10, 3
-	fmt.Print("A soma é ", a + b)
-	fmt.Print("A subtração é ", a - b)
-	fmt.Print("A multiplicação é ", a * b)
-	fmt.Print("O resto da divisão é ", a % b)
+
+
+	a += 1
+	fmt.Println("Incrementar a", a)
+
+	if a > 0 && b > 0 {
+		fmt.Println("Positivos")
+	}
 }
