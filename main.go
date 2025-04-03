@@ -4,9 +4,11 @@ import "fmt"
 
 func main(){
 
-	var ages = [4]int{17, 16, 15, 14}
-	names := [4]string{"Lucas", "Farofa", "Carlão do pneu", "Zeca Urubu"}
-	fmt.Println(ages)
-	fmt.Println(names)
+	var num = []int{10, 20, 30, 40, 50}
+    fmt.Println(num)
+	num = append(num, 60, 70, 80)
+	fmt.Println(num)
+	fmt.Println(len(num), cap(num))
+	
 
 }
